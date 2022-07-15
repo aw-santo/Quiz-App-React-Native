@@ -6,7 +6,7 @@ import Banner from "../Components/Banner";
 export default function Home({ navigation }) {
   return (
     <View style={styles.container}>
-      <Title />
+      <Title text="Quizing"/>
       <Banner
         source="https://cdni.iconscout.com/illustration/premium/thumb/giving-different-feedback-and-review-in-websites-2112230-1779230.png"
       />

@@ -1,10 +1,10 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-export default function Title() {
+export default function Title({ text }) {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Quizing</Text>
+      <Text style={styles.title}>{text}</Text>
     </View>
   )
 }
@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     fontWeight: '600'
   },
   container: {
-    paddingVertical: 25,
+    paddingVertical: 20,
     justifyContent: 'center',
     flexDirection: 'row'
   }

@@ -23,7 +23,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    paddingTop: 50,
-    paddingHorizontal: 20,
+    // paddingTop: 50,
+    // paddingHorizontal: 20,
   },
 });
